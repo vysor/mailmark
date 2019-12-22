@@ -7,7 +7,7 @@ Please credit original author, by keeping the line of text below this.
 - git clone https://github.com/vysor/
 - cd mailmarket
 - chmod +x ./install
-- ./install
+- ./install  
 If you look at the install script, all it does is place some HTML/CSS templates in /usr/local/lib.
 
 # Uninstall

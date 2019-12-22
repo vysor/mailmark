@@ -1,0 +1,3 @@
+#!/bin/bash
+mkdir /usr/local/lib/mailmarket
+cp template/* /usr/local/lib/mailmarket 

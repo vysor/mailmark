@@ -1,0 +1,11 @@
+.head {
+    width: 100px;
+    height: 100px;
+    background: #333;
+    color: red;
+}
+
+.logo {
+    width: 10px;
+    height: 10px;
+}

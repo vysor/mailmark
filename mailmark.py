@@ -1,7 +1,9 @@
+#!/usr/bin/env python3
+
 import os
 
 env = {
-    'PATH': '/usr/local/lib'
+    'PATH': '/usr/local/lib/mailmark'
 }
 
 def main():

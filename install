@@ -1,3 +1,12 @@
 #!/bin/bash
-mkdir /usr/local/lib/mailmarket
-cp template/* /usr/local/lib/mailmarket 
+
+# Lib
+mkdir -p /usr/local/lib/mailmark
+cp -r template/* /usr/local/lib/mailmark
+chmod -w /usr/local/lib/mailmark
+cp uninstall /usr/local/lib/mailmark
+chmod +x /usr/local/lib/mailmark/uninstall
+
+# Bin
+cp mailmark /usr/local/bin
+chmod +x /usr/local/bin/mailmark
